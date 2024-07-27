@@ -160,6 +160,11 @@ header {
 
 .board {
     grid-area: board;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 4em 0;
 }
 
 .services {
