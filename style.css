@@ -94,19 +94,28 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     display: grid;
     grid-template-areas: "header" "board" "services" "copy" "footer";
     max-width: 1000px;
     margin: 0 auto;
+    padding: 2em;
 }
 
 header {
     grid-area: header;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
+}
+
+.header-icon {
+    width: 2em;
 }
 
 .logo {
@@ -129,6 +138,24 @@ header {
 
 .header-phone > p {
     display: inline-block;
+}
+
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.info p, .info a {
+    font-size: 1.2em;
 }
 
 .board {
