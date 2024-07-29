@@ -288,7 +288,7 @@ footer {
     display: grid;
     grid-template-areas: "nav store-info" "copyright copyright";
     justify-content: space-between;
-    padding: 2em 5em;
+    padding: 2rem 3rem;
     gap: 2em;
     color: white;
 }
