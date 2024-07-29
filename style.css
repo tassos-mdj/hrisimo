@@ -151,6 +151,8 @@ header a, header p {
     font-weight: 600;
     font-size: 1.2rem;
     flex: 1 1 auto;
+    text-align: center;
+    margin: 0 1em;
 }
 
 .header-phone > p {
@@ -188,7 +190,11 @@ header a, header p {
 }
 
 .board h3 {
-    margin: 1.5em;
+    margin: 1.5rem 1rem;
+}
+
+.board p {
+    margin: 0 1rem;
 }
 
 
@@ -227,10 +233,12 @@ header a, header p {
 .copy h1 {
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 2em 0;
     font-size: xx-large;
     font-weight: bold;
     color:#359881;
+    margin: 0 1rem;
 }
 
 .copy-services {
@@ -238,6 +246,7 @@ header a, header p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .copy-services-badge {
@@ -256,6 +265,7 @@ header a, header p {
     gap: 1.5em;
     align-items: center;
     color: #6E6C6C;
+    margin: 2rem;
 }
 
 .copy-services-details a {
