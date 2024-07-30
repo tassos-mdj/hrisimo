@@ -269,6 +269,7 @@ header a, header p {
     border: none;
     border-radius: 50px;
     padding: 0.5em 1.5em;
+    cursor: pointer;
 }
 
 footer {
@@ -291,6 +292,18 @@ nav h2 {
     color:#359881;
     font-size: 1.2em;
     margin-bottom: 0.5em;
+}
+
+nav a{
+    color:white;
+}
+
+nav a:hover {
+    color: #359881;
+}
+
+.active {
+    color:#359881;
 }
 
 .store-info {
